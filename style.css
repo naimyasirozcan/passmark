@@ -1,0 +1,56 @@
+
+    /* global */
+
+    *{
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    a:visited {
+        color: purple;
+    }
+    .btn {
+        border: 1px solid white;
+        border-radius: 8px;
+        padding: 4px;
+        text-align: center;
+    }
+    .btn-primary {
+        background-color: red;
+        color: white;
+        margin-top: 10px;
+    }
+
+    /* main  */
+
+    .container {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(251, 179, 79);
+        height: 97vh;
+        border-radius: 30px;
+        color: rgb(39, 4, 71);
+    }
+    .container input {
+        border-radius: 8px;
+        margin: 5px;
+        
+    }
+    .passmark {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+       
+    }
+    
+    .passmark-item {
+        padding: 10px;
+    }
+    
+    #result {
+        color: rgb(181, 44, 44);
+    }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passmark Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="passmark">
+            <h1>Pass Mark Calculator</h1>
+            <h3>Enter Your Marks Below</h3>
+            <input id="midtermInp" type="text"  class="passmark-item" placeholder="Enter your mid-term note here.">
+            <input id="finalInp" type="text"  class="passmark-item" placeholder="Enter your final note here.">
+            <button id="submitBtn" class="btn btn-primary passmark-item">Did I Pass?</button>
+            <p class="passmark-item" >Result:</p>
+            <div class="result-area passmark-item">
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+    
+<script src="./passmark.js"></script>
+</body>
+</html>

@@ -1,12 +1,10 @@
 // definitions
-
 let mid = document.querySelector("#midtermInp") // text input for midterm
 let final = document.querySelector("#finalInp") // text input for final
 let result = document.querySelector('#result')
 let submitBtn = document.querySelector('#submitBtn')
 
 // function
-
 submitBtn.addEventListener('click', function(){
     let average = (mid.value * 0.4) + (final.value * 0.6)
     if (average >= 0 && average < 50) {
@@ -36,6 +34,6 @@ submitBtn.addEventListener('click', function(){
     else if (average >= 90 && average < 100) {
         result.textContent = `Average: ${average} | AA - Passed!`
     }
-    mid.value = ""
+    mid.value = "" 
     final.value = ""
 })

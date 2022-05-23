@@ -1,11 +1,8 @@
-
     /* global */
-
     *{
         box-sizing: border-box;
         font-family: sans-serif;
     }
-
     a {
         text-decoration: none;
     }
@@ -25,7 +22,6 @@
     }
 
     /* main  */
-
     .container {
         display: flex;
         justify-content: center;
@@ -37,20 +33,16 @@
     .container input {
         border-radius: 8px;
         margin: 5px;
-        
     }
     .passmark {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         text-align: center;
-       
     }
-    
     .passmark-item {
         padding: 10px;
     }
-    
     #result {
         color: rgb(181, 44, 44);
     }
